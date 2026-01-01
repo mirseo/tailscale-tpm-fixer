@@ -33,7 +33,7 @@ Run the executable as Administrator (right-click and select "Run as administrato
 ### Linux
 Run with sudo:
 ```bash
-sudo ./tailscale-tpm-fixer
+sudo ./tailscale-tpm-fixer (TTF)
 ```
 
 ## Usage
