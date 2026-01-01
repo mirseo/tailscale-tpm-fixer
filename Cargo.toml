@@ -1,5 +1,5 @@
 [package]
-name = "tpm-fixer"
+name = "tailscale-tpm-fixer"
 version = "0.1.0"
 edition = "2024"
 

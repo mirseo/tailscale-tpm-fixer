@@ -14,6 +14,8 @@ pub fn show_logo() {
 
   After the process is complete, please re-register your device to reactivate the machine.
 
+  (See https://tailscale.com/kb/1596/secure-node-state-storage for more details.)
+
   Specifically, the following files will be removed.
 "#);
 

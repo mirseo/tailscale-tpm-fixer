@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "tpm-fixer"
+name = "tailscale-tpm-fixer"
 version = "0.1.0"
