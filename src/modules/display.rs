@@ -1,3 +1,5 @@
+use std::io::{self, Write};
+
 pub fn show_logo() {
     println!(r#"
  _____ _____ _____
@@ -30,4 +32,16 @@ pub fn show_logo() {
   Press Y to agree and continue, or N to cancel.
 
   "#);
+}
+
+pub fn get_user_confirmation() -> bool {
+    print!(">>> ");
+    io::stdout().flush().unwrap();
+
+    let mut input = String::new();
+    io::stdin().read_line(&mut input).unwrap();
+
+    let input = input.trim().to_lowercase();
+
+    matches!(input.as_str(), "y" | "yes")
 }
