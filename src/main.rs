@@ -1,3 +1,12 @@
+mod modules;
+
 fn main() {
-    println!("Hello, world!");
+    modules::display::show_logo();
+
+    if modules::display::get_user_confirmation() {
+        println!("Proceeding...");
+    } else {
+        println!("Cancelled.");
+        std::process::exit(0);
+    }
 }
