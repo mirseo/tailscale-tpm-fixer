@@ -1,3 +1,5 @@
+mod modules;
+
 fn main() {
-    println!("Hello, world!");
+    modules::display::show_logo();
 }
